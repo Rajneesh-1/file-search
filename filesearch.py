@@ -110,7 +110,7 @@ btn_srch.place(x=400,y=380)
 btn_rst=Button(root,command=reset,text='Reset',font=('Book Antiqua',15),bg='dark olive green',fg='white')
 btn_rst.place(x=550,y=380)
 
-Lb1 = Listbox(root,font=('Book antiqua',15,'bold'),fg='black',selectmode='SINGLE',width=30)
-Lb1.bind('<Button-1>',open_file)
+"""Lb1 = Listbox(root,font=('Book antiqua',15,'bold'),fg='black',selectmode='SINGLE',width=30)
+Lb1.bind('<Button-1>',open_file)"""
 
 root.mainloop()
